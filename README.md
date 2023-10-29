@@ -3,6 +3,7 @@
 
 ## Description
 MY Cryptic is a C++ application that simulates a stock trading system. It enables multiple traders to buy and sell stocks in a real-time environment. The system maintains an order book and matches buy/sell orders efficiently, even in a multi-threaded setting. The application is built using the Qt framework, providing a robust and user-friendly interface.
+https://medium.com/@artur.araqelyan.0001/mycrypt-transforming-stock-trading-a-deep-dive-into-a-c-and-qt-powered-multi-threaded-system-278ac70afb26
 
 ## Features
 - Real-time stock trading simulation
@@ -24,9 +25,17 @@ MY Cryptic is a C++ application that simulates a stock trading system. It enable
 ### Building the Application
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone <https://github.com/ArturArakelyan1/MyCrypt-Trading-System>
+   cd <https://github.com/ArturArakelyan1/MyCrypt-Trading-System>
 
   2. Open the .pro file with Qt Creator.
   3. Configure the project with the appropriate Qt Kit.
   4. Build and run the application.
+<p>&nbsp</p>
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://www.linkedin.com/in/artur-arakelyan-9a4355278/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/artur-arakelyan-9a4355278/" height="30" width="40" /></a>
+<a href="https://medium.com/@artur.araqelyan.0001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="https://medium.com/@artur.araqelyan.0001" height="30" width="40" /></a>
+</p>
+<p></p>
