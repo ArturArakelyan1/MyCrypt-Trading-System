@@ -17,10 +17,27 @@ https://medium.com/@artur.araqelyan.0001/mycrypt-transforming-stock-trading-a-de
 ### Prerequisites
 - C++ compiler (GCC, Clang, MSVC, etc.)
 - Qt SDK
+- SQLite (or another database system if you prefer, but you'll need to modify the code accordingly)
 
 ### Steps to Install Qt SDK
 1. Download the Qt installer from the official [Qt website](https://www.qt.io/download).
 2. Follow the installation instructions provided in the installer.
+
+### Configuring the Database
+MY Cryptic uses SQLite for database operations. You need to ensure that the database file path in `main.cpp` is correctly set up:
+
+1. Locate the following line in `main.cpp`:
+
+   ```cpp
+   db.setDatabaseName("/Users/artur/Desktop/Nor 2/user.sqlite");
+   
+Change the path to the correct location on your system where you want the SQLite database file to be stored.
+
+For example:
+ ```cpp
+   db.setDatabaseName("/path/to/your/directory/user.sqlite");
+```
+2.Save the changes.
 
 ### Building the Application
 1. Clone the repository:
