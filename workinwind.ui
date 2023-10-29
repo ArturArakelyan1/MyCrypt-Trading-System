@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>workinwind</class>
+ <widget class="QDialog" name="workinwind">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="cryptoBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Knuth</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Turing</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QWidget" name="diagramChart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>711</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="orderBookWidget">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>71</y>
+     <width>239</width>
+     <height>215</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="userWidget">
+   <property name="geometry">
+    <rect>
+     <x>751</x>
+     <y>296</y>
+     <width>239</width>
+     <height>214</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="Balancframe">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>14</y>
+     <width>172</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="BalancText">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Balance</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="amountText">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>33$</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="replenishmentButton">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>10</y>
+     <width>115</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>replenishment</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="crypfram1">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>14</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="crypt1Name">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ada</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="priceCrypt1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1.2%</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="cryptfram2">
+   <property name="geometry">
+    <rect>
+     <x>239</x>
+     <y>14</y>
+     <width>172</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="crypt2Name">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Knuth</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="priceCrypt2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1.2%</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="crypfram3">
+   <property name="geometry">
+    <rect>
+     <x>427</x>
+     <y>14</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="crypt3Name">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Turing</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="priceCrypt3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1.2%</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>540</y>
+     <width>721</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="buyButton">
+      <property name="text">
+       <string>Buy</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sellButton">
+      <property name="text">
+       <string>Sell</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="buyProfitButton">
+      <property name="text">
+       <string>Buy by profit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exitButton">
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
