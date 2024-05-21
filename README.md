@@ -1,6 +1,7 @@
 
 # MY Cryptic
 
+![Example Image](./Images/preview2.webp)
 ## Description
 MY Cryptic is a C++ application that simulates a stock trading system. It enables multiple traders to buy and sell stocks in a real-time environment. The system maintains an order book and matches buy/sell orders efficiently, even in a multi-threaded setting. The application is built using the Qt framework, providing a robust and user-friendly interface.
 https://medium.com/@artur.araqelyan.0001/mycrypt-transforming-stock-trading-a-deep-dive-into-a-c-and-qt-powered-multi-threaded-system-278ac70afb26
